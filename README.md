@@ -58,13 +58,13 @@ These algorithms use the same key for both encryption and decryption. The key mu
 
 
 
-- **AES (Advanced Encryption Standard)** - [CODE](SecurityPackage/securitylibrary/AES/AES.cs)
+- **AES (Advanced Encryption Standard)** - [Code](SecurityPackage/securitylibrary/AES/AES.cs)
     - It is a symmetric encryption algorithm widely used across the globe for securing data.
     - It was established by the U.S. National Institute of Standards and Technology (NIST) in 2001 and is based on the Rijndael cipher developed by cryptographers Vincent Rijmen and Joan Daemen.
  
 
 
-- **DES (Data Encryption Standard)** - [CODE](SecurityPackage/securitylibrary/DES/DES.cs)
+- **DES (Data Encryption Standard)** - [Code](SecurityPackage/securitylibrary/DES/DES.cs)
     - It is a symmetric-key block cipher that was widely used for data encryption from the 1970s until more secure algorithms like AES superseded it because DES has a shorter key length making it vulnerable to brute-force attacks.
     - DES encrypts data in 64-bit blocks using a 56-bit key.
 
@@ -83,14 +83,14 @@ These algorithms use the same key for both encryption and decryption. The key mu
 These algorithms use a pair of keys – a public key for encryption and a private key for decryption. This key pair is mathematically linked.
 
 
-- **RSA (Rivest-Shamir-Adleman)** - [CODE](SecurityPackage/securitylibrary/RSA/RSA.cs)
+- **RSA (Rivest-Shamir-Adleman)** - [Code](SecurityPackage/securitylibrary/RSA/RSA.cs)
 
     - It is a widely used public-key cryptosystem that enables secure data transmission and digital signatures.
     - It relies on the mathematical properties of large prime numbers and is foundational to modern cryptography.
 
 
 
-- **Diffie-Hellman** - [CODE](SecurityPackage/securitylibrary/DiffieHellman/DiffieHellman.cs)
+- **Diffie-Hellman** - [Code](SecurityPackage/securitylibrary/DiffieHellman/DiffieHellman.cs)
 
     - It is used primarily for secure key exchange, allowing two parties to establish a shared secret key over an insecure channel.
     - It was introduced by Whitfield Diffie and Martin Hellman in 1976 and is a foundational technique in cryptography.
@@ -98,7 +98,7 @@ These algorithms use a pair of keys – a public key for encryption and a privat
 
 
 
-- **ElGamal** - [CODE](SecurityPackage/securitylibrary/ElGamal/ELGAMAL.cs)
+- **ElGamal** - [Code](SecurityPackage/securitylibrary/ElGamal/ELGAMAL.cs)
 
     - ElGamal encryption is a public-key cryptosystem that is based on the difficulty of the discrete logarithm problem.
     - It was proposed by Taher Elgamal in 1985.
